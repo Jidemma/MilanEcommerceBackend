@@ -1,0 +1,18 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: MmaCodesEcommerce
+  devtools:
+    restart:
+      additional-paths=/resources/static:
+  data:
+    mongodb:
+      uri: mongodb+srv://MmaCodes:Ben2410@mmacodeecommerce.zhvogva.mongodb.net/MmaCodeEcommerce?retryWrites=true&w=majority
+#      mongodb+srv://MmaCode:Ben2410@ecommerce.3wzevud.mongodb.net/MmaCodeEcommerce?retryWrites=true&w=majority
+
+      auto-index-creation: true
+
+#  main:
+#    allow-circular-references: true
